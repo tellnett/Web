@@ -1,0 +1,208 @@
+.cabecalho{
+  align-items: center;
+  background: #f9f9f9f9;
+  display: flex;
+flex-wrap: wrap;
+  justify-content: space-between;  
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.menulista{
+    display: flex;
+}
+.menuitem{
+    list-style: none;
+}
+.menuitem:last-child.link{
+    margin-right: 0;
+}
+    .link{
+        color: #808080;
+        margin-right: 1.25rem;
+        text-transform:uppercase;
+        text-decoration: none;
+    }
+
+.link.ativo {
+color:#33333333;
+font-weight: bold;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+/*parte do banner*/
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.bannertitulo{
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+   
+    position:absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px  rgba(0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.bannerimagem{
+    width: 100%;
+   
+}
+.sobre{
+    text-align: center;
+   
+}
+.sobrestitulo{
+    
+    font-family: Pacifico, cursive;
+   
+    color:#8d0606;
+    text-shadow: 0 2px 3px  rgba(0, 0, 0.75);
+}
+.sobredescricao{
+    color:#595959;
+    
+    font-weight: 100;
+}
+
+.receitas{
+background: #e5e5e5e5;
+display: flex;
+flex-wrap: wrap;
+padding: 5rem 0 0 5rem;
+}
+
+.receita{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    
+}
+.receitaimagem{
+height: 200px;
+}
+
+.receitatitulo{
+font-size: 1.4375rem;
+}
+
+.receitaconteudo{
+font-size: 1.1875rem;
+line-height: 1.5;
+text-align: justify;
+
+}
+
+
+.receitadescricao{
+padding: 1rem;
+}
+
+.receitabotao{
+
+background: #8d0606;
+color:#fdfdfd;
+border: none;
+border-radius: 5px;
+padding: 1rem;
+transition: all .1s ease-in-out;
+}
+
+.receitabotao:hover{
+    background: #620404;
+    cursor: pointer;
+}
+
+.quemsomos{
+text-align: center;
+padding: 5rem;
+}
+.quemsomostitulo{
+margin-bottom: 1rem;
+color:#8d0606;
+font-size: 3.18rem;
+font-family: Pacifico, cursive;
+
+}
+
+.quemsomosdescricao{
+font-weight: 100;
+font-size: 1.75rem;
+color: #595959;
+
+}
+
+.pessoa{
+display: flex;
+flex-direction: column;
+}
+.pessoanome{
+    margin: 1rem 0;
+    font-family: Pacifico, cursive;
+    color:#8d0606;
+    font-size: 2rem;
+}
+.pessoafuncao{
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+
+}
+.pessoas{
+display: flex;
+padding-top: 3rem;
+justify-content: space-around;
+
+}
+
+.pessoaimagem{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 200px;
+margin: 0 auto;
+width: 200px;
+border-radius: 100%;
+background: red;
+}
+
+.pessoaimagemroberta{
+    background-image: url(../img/pessoas/roberta.jpg);
+   
+}
+.pessoaimagemmarcela{
+    background-image: url(../img/pessoas/marcela.jpg);
+}
+.pessoaimagemandreia{
+    background-image: url(../img/pessoas/andreia.jpg);
+}
+
+.rodape{
+    background: #bfbfbf;
+    color:#fdfdfd;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
