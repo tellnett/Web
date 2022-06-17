@@ -2,9 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-
+   font-family: sans-serif;
 }
+
 /*configurando o imagem principal do site*/
 .hero{
     width: 100%;
@@ -15,11 +15,13 @@
     position: relative;
     overflow: hidden;
 }
+
 /*configurando o tamanho do logo*/
 .logo{
     width: 100px;
     cursor: pointer;
 }
+
 /*configurando o topo do site e alinhamentos*/
 .navbar{
     width: 85%;
@@ -29,6 +31,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 /*configurando os botões geral do site */
 button{
     color:#fbfcfd;
@@ -39,6 +42,7 @@ button{
     outline: none;
     cursor: pointer;
 }
+
 /*configurando a posição do titulo do site*/
 .content{
     color:#fbfcfd;
@@ -47,15 +51,15 @@ button{
     left: 8%;
     transform: translateY(-50%);
     z-index: 2;
-
-
 }
+
 /*configurando o tamanho do texto principal e a sua posição*/
 h1{
     font-size: 80px;
     margin: 10px 0 30px;
     line-height: 80px;
 }
+
 /*configuração da barra lateral do site*/
 .side-bar{
 width: 50px;
@@ -64,8 +68,8 @@ background: linear-gradient(#00515d, #000729);
 position: absolute;
 right: 0;
 top: 0;
-
 }
+
 /*personalisando a imagem do menu*/
 .menu{
     display: block;
@@ -73,12 +77,14 @@ top: 0;
     margin: 40px auto 0;
     cursor: pointer;
 }
+
 /*configurando as imagens dos links sociais*/
 .social-link img, .useful-link img{
     width: 25px;
     margin: 5px auto;
     cursor: pointer;
 }
+
 /*configurando a posição do link social*/
 .social-link{
     width: 50px;
@@ -87,6 +93,7 @@ top: 0;
     top: 50%;
     transform: translateY(-50%);
 }
+
 /*configurando a posição do link de compartilhamento*/
 .useful-link{
     width: 50px;
@@ -94,12 +101,14 @@ top: 0;
     position: absolute;
    bottom: 30px;
 }
+
 /*configurando o tamanho da bolha e o tempo de sua animação */
 .bubbles img{
     width: 50px;
     animation: bubbles 7s linear infinite;
 
 }
+
 /*configurando a posição da bolha dentro do site*/
 .bubbles{
     width: 100%;
@@ -109,6 +118,7 @@ top: 0;
     position: absolute;
     bottom: 0;
 }
+
 /*permite que as bolhas començem na parte do site visivel e ao subir ela vai desaparencendo*/
 @keyframes bubbles {
     0%{
@@ -130,7 +140,6 @@ top: 0;
 }
 
 /* Efeito das bolhas subindo para o topo do siste com diversos intervalos*/
-
 .bubbles img:nth-child(1){
     animation-delay: 2s;
 }
