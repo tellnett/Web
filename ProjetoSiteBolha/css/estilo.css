@@ -15,10 +15,12 @@
     position: relative;
     overflow: hidden;
 }
+/*configurando o tamanho do logo*/
 .logo{
     width: 100px;
     cursor: pointer;
 }
+/*configurando o topo do site e alinhamentos*/
 .navbar{
     width: 85%;
     height: 15%;
