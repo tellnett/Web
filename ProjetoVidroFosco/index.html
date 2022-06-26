@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div id="blur-area"></div>
+
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="text-box">
+                <h1>Como fazer um Site</h1>
+                <button type="button">Explore as coisas novas</button>
+            </div>
+        </div>
+        
+        
+        <script>
+
+            var blurArea =document.getElementById("blur-area");
+            document.onmousemove = function(e){
+                blurArea.style.transform = `translate(${e.pageX}px, ${e.pageY}px)`;
+            }
+        </script>
+    </body>
+</html>
