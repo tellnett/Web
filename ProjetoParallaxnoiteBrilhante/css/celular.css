@@ -1,0 +1,29 @@
+@media (max-width: 580px) {
+    header{
+
+width: 620px;
+    }
+    .logo{
+        position: relative;
+        left: -81px;
+    }
+   
+    section{
+        width: 628px;
+    }
+    
+    .sec{
+        width: 628px;
+    }
+    .sec h2{
+        
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .sec p{
+        width: 550px;
+        text-align: justify;
+        margin-left: -60px;
+    }
+}
