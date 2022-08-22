@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    padding: 5%;
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+#newsletter{
+    height: 30vh;
+    width: 100%;
+    background-image: url(../img/rodape.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: cover;
+    background-color: #041e42;
+    
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsletter p span{
+   
+    color: #ffbd27;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button{
+    margin: 0 5px 0 20px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #088176;
+    color: white;
+    white-space: nowrap;
+    border: none;
+}
