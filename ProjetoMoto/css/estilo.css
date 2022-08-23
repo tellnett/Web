@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/*==============Inicio do geral==================*/
+.container {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/BMW1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.2s;
+}
+/*==============FIM do geral==================*/
+
+/*==============inicio do menu==================*/
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 160px;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+nav .logo:hover {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 50%;
+
+}
+
+nav ul li {
+    margin-left: 9%;
+}
+
+nav .btn {
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 30px;
+    transition: all 2s;
+
+}
+
+nav .btn:hover {
+    background: rgb(131, 131, 131);
+}
+
+
+/*==============FIM do menu==================*/
+/*==============Inicio do container ==================*/
+.content {
+    margin-top: 10%;
+
+}
+
+.content h2 {
+    color: red;
+    font-size: 34px;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: #222;
+    margin-top: -10px;
+}
+
+.content p {
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.selecione-cor div {
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.selecione-cor {
+    display: flex;
+    margin-top: 30px;
+}
+
+.selecione-cor #red {
+    background: red;
+}
+
+.selecione-cor #blue {
+    background: blue;
+}
+
+.selecione-cor #black {
+    background: black;
+}
+
+/*==============fim do container==================*/
+
+header {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 4rem;
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 150vh;
+
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 10%;
+
+}
+
+.esquerda img {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+.direita1 img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 1s;
+
+}
+
+.fotos img:hover {
+    opacity: 0.5;
+    filter: blur(3px);
+    cursor: pointer;
+}
+
+.direita h4 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.esquerda1 h4 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.direita p {
+    text-align: justify;
+    margin-top: 12%;
+}
+
+.esquerda1 p {
+    text-align: justify;
+    margin-top: 12%;
+}
+
+
+
+.footergeral1 {
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+
+}
+
+footer h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: azure;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer li:hover {
+    color: rgb(241, 240, 245);
+}
+
+footer p {
+    color: gray
+}
+
+footer .subscribre {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 13px 15px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+footer .subscribre a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 15px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+footer .subscribre a.yellow {
+    color: white;
+    background: #fdc93b;
+    transition: 0.3s ease;
+}
+
+footer .subscribre a.yellow:hover {
+    color: rgb(21, 21, 100);
+    background: white;
+}
+
+footer iframe {
+    width: 100%;
+    height: 40vh;
+    border: none;
+}
